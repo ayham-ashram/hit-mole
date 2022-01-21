@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    min-height: 100vh;
+    background-image: url("download (1).jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content .squer
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: wheat;
+}
+.moul
+{
+    background-image: url("download.jpeg");
+    background-size: cover;
+}
+.informatin
+{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    color: black;
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+}
